@@ -60,6 +60,9 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "es5": {
+              "tsConfig": "./tsconfig-es5.app.json"
             }
           }
         },
@@ -71,6 +74,9 @@
           "configurations": {
             "production": {
               "browserTarget": "ie11:build:production"
+            },
+            "es5": {
+              "browserTarget": "ie11:build:es5"
             }
           }
         },
@@ -123,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ie11"
+    }
+  },
+  "defaultProject": "ie11",
+  "cli": {
+    "analytics": false
+  }
 }

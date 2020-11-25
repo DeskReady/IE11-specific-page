@@ -1,3 +1,4 @@
+<ng-container *ngIf="!ie">
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -532,3 +533,7 @@
 
 
 <router-outlet></router-outlet>
+</ng-container>
+<ng-container *ngIf="ie">
+  <h1>Hello Im Internet Explorer :)</h1>
+</ng-container>

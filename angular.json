@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ie11"
+    }
+  },
+  "defaultProject": "ie11",
+  "cli": {
+    "analytics": false
+  }
 }

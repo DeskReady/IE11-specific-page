@@ -5,11 +5,7 @@
   "projects": {
     "ie11": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -28,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -60,9 +56,6 @@
                   "maximumError": "10kb"
                 }
               ]
-            },
-            "es5": {
-              "tsConfig": "./tsconfig-es5.app.json"
             }
           }
         },
@@ -74,9 +67,6 @@
           "configurations": {
             "production": {
               "browserTarget": "ie11:build:production"
-            },
-            "es5": {
-              "browserTarget": "ie11:build:es5"
             }
           }
         },
@@ -98,7 +88,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -129,10 +119,6 @@
           }
         }
       }
-    }
-  },
-  "defaultProject": "ie11",
-  "cli": {
-    "analytics": false
-  }
+    }},
+  "defaultProject": "ie11"
 }

@@ -6,23 +6,15 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "emitDecoratorMetadata": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es5",
-    "module": "es6",
-    "typeRoots": [
-      "../node_modules/@types"
-    ],
+    "target": "es2015",
+    "module": "es2020",
     "lib": [
-      "es6",
+      "es2018",
       "dom"
     ]
-  },
-  "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
   }
 }
